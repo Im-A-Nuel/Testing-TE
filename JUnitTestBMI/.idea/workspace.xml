@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d1af2be-b333-49c1-a1f0-0d62f8b6a220" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tugaste/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tugaste/BMIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tugaste/BMIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tugaste/BMIServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tugaste/BMIServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2w2i4Rinxp83Mg01nzbc0f0nPTv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,17 +28,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BMIService.executor": "Run",
     "Application.Main.executor": "Run",
+    "JUnit.BMIServiceTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/KULIAH SEM 6/Test Eng/jawa/Testing-TE/JUnitTestBMI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BMIServiceTest">
+    <configuration name="BMIService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.tugaste.BMIService" />
+      <module name="JUnitTestBMI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tugaste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.tugaste.Main" />
       <module name="JUnitTestBMI" />
@@ -49,8 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BMIServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitTestBMI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tugaste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tugaste" />
+      <option name="MAIN_CLASS_NAME" value="org.tugaste.BMIServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BMIServiceTest" />
+        <item itemvalue="Application.BMIService" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -70,7 +109,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745245878266</updated>
-      <workItem from="1745245879384" duration="71000" />
+      <workItem from="1745245879384" duration="142000" />
+      <workItem from="1745556855270" duration="4096000" />
     </task>
     <servers />
   </component>

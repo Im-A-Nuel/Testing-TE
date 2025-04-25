@@ -23,4 +23,10 @@ public class BMIService {
         }
     }
 
+    public static void main(String[] args) {
+        double x = hitungBMI(10, 1.6);
+        System.out.println(x);
+        System.out.println(klasifikasiBMI(x));
+    }
+
 }
