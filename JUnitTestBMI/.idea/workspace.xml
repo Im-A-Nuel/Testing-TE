@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d1af2be-b333-49c1-a1f0-0d62f8b6a220" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tugaste/BMIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tugaste/BMIService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/tugaste/BMIServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tugaste/BMIServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/tugaste/BMIServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/tugaste/BMIServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,24 +24,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BMIService.executor": "Run",
-    "Application.Main.executor": "Run",
-    "JUnit.BMIServiceTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/KULIAH SEM 6/Test Eng/jawa/Testing-TE/JUnitTestBMI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BMIService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BMIServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/KULIAH SEM 6/Test Eng/jawa/Testing-TE/JUnitTestBMI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.BMIServiceTest">
     <configuration name="BMIService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.tugaste.BMIService" />
@@ -110,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1745245878266</updated>
       <workItem from="1745245879384" duration="142000" />
-      <workItem from="1745556855270" duration="4096000" />
+      <workItem from="1745556855270" duration="5192000" />
+      <workItem from="1745761285739" duration="14000" />
     </task>
     <servers />
   </component>
