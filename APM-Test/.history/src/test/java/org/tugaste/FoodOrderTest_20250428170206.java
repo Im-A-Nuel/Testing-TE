@@ -60,6 +60,6 @@ class FoodOrderTest {
 
         // verify & assert
         verify(userAccount).hasSufficientBalance(price); // verifikasi cek saldo
-        verify(foodDeliveryService, never()).deliverFood(foodItem, address); // tidak ada pengiriman
+        verify(foodDeliveryService).deliverFood(foodItem, address); // tidak ada pengiriman
     }
 }

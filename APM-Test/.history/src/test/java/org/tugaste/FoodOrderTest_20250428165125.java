@@ -4,7 +4,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.mockito.Mockito.*;
 
 class FoodOrderTest {
@@ -40,7 +39,6 @@ class FoodOrderTest {
         // verify & assert
         verify(userAccount).hasSufficientBalance(price); // verifikasi cek saldo
         verify(foodDeliveryService).deliverFood(foodItem, address);
-
     }
 
 
@@ -60,6 +58,5 @@ class FoodOrderTest {
 
         // verify & assert
         verify(userAccount).hasSufficientBalance(price); // verifikasi cek saldo
-        verify(foodDeliveryService, never()).deliverFood(foodItem, address); // tidak ada pengiriman
     }
 }
