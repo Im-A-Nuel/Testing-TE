@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head><title>Manajemen User</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <h2>CRUD User</h2>
+  <form id="userForm">
+    <input type="text" id="name" placeholder="Nama" required>
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Tambah</button>
+  </form>
+  <ul id="userList"></ul>
+  <script>
+    const API = '/api/users';
+
+    async function loadUsers() {
+      const res = await fetch(API);
+      const users = await res.json();
+      const list = document.getElementById("userList");
+      list.innerHTML = '';
+      users.forEach(u => {
+        const li = document.createElement('li');
+        li.innerHTML = `${u.name} 
+          <button onclick="hapus(${u.id})">Hapus</button> 
+          <button onclick="edit(${u.id})">Edit</button>`;
+        list.appendChild(li);
+      });
+    }
+
+    async function tambahUser(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      await fetch(API, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ name, username, password })
+      });
+      loadUsers();
+    }
+
+    async function hapus(id) {
+      await fetch(`${API}/${id}`, { method: 'DELETE' });
+      loadUsers();
+    }
+
+    async function edit(id) {
+      const newName = prompt("Nama baru:");
+      if (newName) {
+        await fetch(`${API}/${id}`, {
+          method: 'PUT',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({ name: newName })
+        });
+        loadUsers();
+      }
+    }
+
+    document.getElementById("userForm").addEventListener("submit", tambahUser);
+    loadUsers();
+  </script>
+</body>
+</html>
