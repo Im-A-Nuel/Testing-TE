@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+input, button {
+  margin: 5px;
+  padding: 8px;
+}
+ul li {
+  margin: 10px 0;
+}
