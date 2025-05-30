@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manual Log Out Negative</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fee8ac8f-6166-4985-9b4b-b4b8a6a2b1e1</testCaseGuid>
+</TestCaseEntity>
